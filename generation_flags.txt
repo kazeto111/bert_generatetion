@@ -1,0 +1,24 @@
+python generation2.py \
+  --vocab_file=/Users/futo/Bert_of_English/vocab.txt \
+  --bert_config_file=/Users/futo/Bert_of_English/bert_config.json \
+  --init_checkpoint=/Users/futo/Bert_of_English/bert_model.ckpt \
+  --do_train=True \
+  --train_file=/Users/futo/Bert_of_English/SQuAD_of_English/train.txt \
+  --do_predict=True \
+  --predict_file=/Users/futo/Bert_of_English/SQuAD_of_English/predict.txt \
+  --train_batch_size=1 \
+  --learning_rate=3e-5 \
+  --num_train_epochs=1 \
+  --max_seq_length=384 \
+  --doc_stride=128 \
+  --output_dir=Bert_of_English/SQuAD_of_English/
+
+
+
+
+
+
+
+
+
+
